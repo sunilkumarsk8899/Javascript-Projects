@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASSWROD GENERATE</title>
+    <link rel="stylesheet" href="./css.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <input type="text" id="pass" placeholder="Enter Password">
+                <input type="checkbox" name="is_generate" id="is_generate" value="1"> Generate Password
+                <br>
+                <small id="msg"></small>
+                <br>
+                <input type="number" id="pass_length" class="hidden" placeholder="Enter Password Length" max="20" min="8">
+                <button id="generate_password" class="hidden">Generate Password</button>
+            </div>
+        </div>
+    </div>
+    <script src="./js.js"></script>
+</body>
+</html>

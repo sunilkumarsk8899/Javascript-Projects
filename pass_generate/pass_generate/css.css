@@ -1,0 +1,20 @@
+.col-12{
+    position: absolute;
+    left: 45%;
+    top: 50%;
+}
+input#pass {
+    padding: 10px 20px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.hidden{
+    display: none;
+}
+
+input#pass_length {
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;
+}
