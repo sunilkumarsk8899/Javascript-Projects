@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number Game</title>
+    <link rel="stylesheet" href="./css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-2 ml-5 text-center left-div">
+                <h1>Guess</h1>
+                <h1>Number</h1>
+                <h1>Game</h1>
+            </div>
+
+            <div class="col-2" style="display: flex;align-items: center;justify-content: center;">
+                Timeing : &nbsp; <span id="time_min">0</span> &nbsp; : &nbsp; <span id="time_sec">0</span>
+            </div>
+
+            <div class="col-8 text-center right-div">
+
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Guess Number is</h1> <h2 id="random_number">?</h2>
+                    </div>
+                </div>
+
+                <input type="number" id="input_number" placeholder="Enter Guess Number">
+                <button id="check_btn">Check</button>
+
+                <br>
+                <span id="msg"></span>
+
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Check Answer....</h2>
+                    </div>
+                    <div class="col-12">
+                        <span>Score :</span> <span id="score">0</span>
+                        <br>
+                        <span>HighScore :</span> <span id="highscore">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js.js"></script>
+</body>
+</html>

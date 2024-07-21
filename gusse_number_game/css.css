@@ -1,0 +1,19 @@
+.left-div{
+    border-left: 10px solid #000;
+}
+
+.right-div{
+    border-right: 10px solid #000;
+}
+input#input_number {
+    padding: 5px;
+    border-radius: 5px;
+}
+button#check_btn {
+    padding: 8px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background: gray;
+    color: #fff;
+}
