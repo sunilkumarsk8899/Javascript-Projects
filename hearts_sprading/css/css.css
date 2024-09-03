@@ -13,16 +13,17 @@ span{
     top: 50%;
     transform: translate(-50%,-50%);
     pointer-events: none;
-    animation: animation 10s;
-    transition: background-color ease 0.4s
+    animation: animation 15s;
 }
 
 @keyframes animation {
     0%{
         transform: translate(-50%,-50%) scale(1);
+        filter: hue-rotate(0);
     }
     100%{
         transform: translate(-50%,-5000%) scale(0.5);
+        filter: hue-rotate(720deg);
     }
 }
 
