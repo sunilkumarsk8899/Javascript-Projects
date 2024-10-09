@@ -1,0 +1,308 @@
+html {
+    height: 100%;
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+    overflow: hidden;
+  }
+  
+  body {
+    background: transparent;
+    color: #ffffff;
+  }
+  
+  .bluelight {
+    text-shadow: 0 0 10px #3498DB,
+                 0 0 20px #3498DB,
+                 0 0 30px #3498DB,
+                 0 0 40px #2980B9,
+                 0 0 70px #2980B9,
+                 0 0 80px #2980B9,
+                 0 0 100px #2980B9,
+                 0 0 150px #2980B9;
+  }
+  
+  .clock {
+      overflow: hidden;
+  }
+  
+  .col-md-12 {
+      overflow: hidden;
+      padding-bottom: 20px;
+  }
+  
+  .top-pane {
+    margin-bottom: 0px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #34495E;
+    border: 0px;
+  }
+  
+  .bottom-pane {
+    margin-top: 0px;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #2C3E50;
+    border: 0px;
+  }
+  
+  @media (min-width: 768px) {
+    .num {
+      font-size: 100px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .num {
+      font-size: 50px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .num {
+      font-size: 30px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .text {
+      font-size: 35px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .text {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .text {
+      font-size: 15px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    body {
+      padding-top: 75px;
+    }
+  }
+  
+  h1 {
+    padding-top: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    h1 {
+      margin-bottom: 75px;
+      font-size: 100px;
+    }
+  }
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:wght@300;400;500;700&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  html{
+    font-size: 12px;
+  }
+  body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/img.jpg');
+    color:#fff;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .counter{
+    display: flex;
+    border: 1px solid rgba(255,255,255,0.5);
+    padding: 10px;
+  }
+  body>h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 15px  0px;
+  }
+  
+  body>p{
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  .counter .box{
+    width: 80px;
+    height: 70px;
+    text-align: center;
+    margin-right: 10px;
+    position: relative;
+  }
+  
+  .counter .box::after{
+    content: ":";
+    height: 70px;
+    width: 10px;
+    position: absolute;
+    top:0;
+    right: 0;
+    font-size: 2.5rem;
+  }
+  .counter .box:last-of-type::after{
+    display: none;
+  }
+  
+  .counter .box h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+  
+  .form{
+    margin-top: 20px;
+  }
+  .form input[type="text"]{
+    width: 230px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.5);
+    background-color: transparent;
+    border-radius: 5px;
+    color:white;
+  }
+  .form input[type="text"]::placeholder{
+    color:rgba(255,255,255,0.7);
+  }
+  .form button{
+    width: 120px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 10px;
+    background-color: cornflowerblue;
+    color:white;
+  }
+  
+  @media (min-width:576px) {
+    html{
+      font-size:18px ;
+    }
+    .counter .box{
+      width: 100px;
+      height: 100px;
+    }
+    .form input[type="text"]{
+      width: 300px;
+    }
+  }
+  
+  @media (min-width:768px) {
+    html{
+      font-size:20px ;
+    }
+    .counter .box{
+      width: 110px;
+      height: 110px;
+    }
+    .form input[type="text"]{
+      width: 340px;
+    }
+  }:root {
+    --color-white: #ffffff;
+    --color-black: #202020;
+    --color-glass: rgba(255, 255, 255, 0.05);
+    --color-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: var(--color-white);
+  }
+  body {
+    background: url('https://img.freepik.com/free-vector/realistic-new-year-background_23-2149164456.jpg?w=1380&t=st=1726057588~exp=1726058188~hmac=b99456d50ce0b22d68b5758d57254e5cd9571532fab9f3a295e08d635513da67');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+  }
+  .wrapper {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-size: 16px;
+  }
+  .heading {
+    text-align: center;
+    margin-bottom: 4em;
+  }
+  .heading h1 {
+    text-shadow: var(--color-shadow);
+    font-size: 6.2em;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+  }
+  .heading h3 {
+    font-size: 1.6em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: var(--color-glass);
+    backdrop-filter: blur(12px);
+    box-shadow: var(--color-shadow);
+    padding: 8px 30px;
+    display: inline-block;
+  }
+  .countdown {
+    width: 95vw;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  .box {
+    width: 28vmin;
+    height: 29vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+  }
+  span.num {
+    background-color: var(--color-glass);
+    backdrop-filter: blur(12px);
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    font-size: 4em;
+    box-shadow: var(--color-shadow);
+    border-radius: 0.1em;
+  }
+  span.num:after {
+    content: "";
+    position: absolute;
+    background-color: var(--color-glass);
+    height: 100%;
+    width: 50%;
+    left: 0;
+  }
+  span.text {
+    font-size: 1em;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    display: block;
+    width: 80%;
+    position: relative;
+    text-align: center;
+    bottom: 20px;
+    padding: 0.7em 0;
+    font-weight: 600;
+    border-radius: 0.3em;
+    box-shadow: var(--color-shadow);
+  }  
