@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+  } 
+
+  .calculator {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .input-field {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+  }
+
+  .btn-operator {
+    background-color: #ffc107;
+    color: white;
+  }
+
+  .btn-equals {
+    background-color: #28a745;
+    color: white;
+  }
+
+  .btn-back {
+    background-color: #dc3545;
+    color: white;
+  }
+
+  .start-container{
+    position: absolute;
+    background: #495851;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+
+
+  .glow-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: glow 0.5s infinite alternate; /* Infinite glow animation */
+    transition: transform 0.3s ease;
+  }
+
+  /* Keyframes for the glowing effect */
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+      scale: 1;
+    }
+    100% {
+      box-shadow: 0 0 30px rgba(0, 123, 255, 1);
+      scale: 1.2;
+    }
+  }
+
+  /* Hover effect: zoom in */
+  .glow-button:hover {
+    transform: scale(1.1); /* Zoom in */
+  }
+
+  /* Active (click) effect: zoom out */
+  .glow-button:active {
+    transform: scale(0.9); /* Zoom out */
+  }
